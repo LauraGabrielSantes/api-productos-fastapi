@@ -11,3 +11,14 @@ class Producto(BaseModel):
     id: int
     nombre: str
     precio: float
+
+class ProductoCreate(BaseModel):
+    """Modelo para crear un producto (sin ID)"""
+    id: int
+    nombre: str
+    precio: float
+class ProductoUpdate(BaseModel):
+    """Modelo para actualizar un producto (sin ID)"""
+    id: int
+    nombre: str
+    precio: float
