@@ -11,7 +11,7 @@ from producto_service import (
 )
 
 app = FastAPI(
-    title="API de Productos :)",
+    title="API de Productos :)!!",
     description="API REST para gestionar productos con operaciones CRUD",
     version="1.0.0"
 )
